@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="NoKeyboard" >
+        android:label="NoKeyboard">
         <service
-            android:name="com.coletz.nokeyboard.NoKeyboard"
+            android:name=".NoKeyboardService"
             android:label="NoKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD" >
             <meta-data
